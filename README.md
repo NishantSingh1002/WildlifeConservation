@@ -4,7 +4,7 @@
 
 ## Installation
 
-    $ pip install camtrapml
+    pip install camtrapml
 
 ## Features
 
@@ -39,6 +39,8 @@ ExifTool is required for this package to work. Installation instructions can be 
 Three methods are available for extracting EXIF data from images. Each with different performance characteristics.
 
 **Method 1: Individual Images**
+
+This method extracts EXIF data from a single image. It calls the `extract_exif` function from the `camtrapml.image.exif` module and passes the path of the image as an argument. The function returns a dictionary containing the EXIF data of the specified image. This method is suitable when you need to extract EXIF data from individual images one by one.
 
 
 ```python
