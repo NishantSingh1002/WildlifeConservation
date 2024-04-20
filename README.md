@@ -156,8 +156,3 @@ thumbnail(
     )
 )
 ```
-
-
-```python
-
-```
